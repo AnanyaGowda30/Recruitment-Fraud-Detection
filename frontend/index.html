@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Fraud Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Recruitment Fraud Detection System</h1>
+
+    <p class="subtitle">
+        AI Powered Fake Job Detection using Machine Learning
+    </p>
+
+    <textarea
+        id="jobText"
+        placeholder="Paste the complete Job Description here..."></textarea>
+
+    <button onclick="predictJob()">
+        Analyze Job
+    </button>
+
+    <div id="resultCard" class="card">
+
+        <h2 id="prediction"></h2>
+
+        <p id="confidence"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
